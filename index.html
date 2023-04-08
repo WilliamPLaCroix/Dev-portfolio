@@ -49,7 +49,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>William LaCroix</h1>
-            <h2>Software Engineer</h2>
+            <h2>Student, techie, dreamer</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -73,9 +73,11 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        As a self-taught programmer, I have forged my skills through my Masters coursework and rigorous self-directed study. 
+                        I am an active learner with a passion for coding and learning foreign languages, and my experience studying multiple 
+                        languages has taught me to approach problem solving with an analytical and creative mindset. I am excited to apply my 
+                        skills and knowledge to a Python developer role where I may continue to learn and grow in a dynamic and collaborative 
+                        environment.
                     </p>
                 </div>
             </div>
@@ -83,7 +85,7 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <!-- <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="September 2015 – September 2016">
@@ -111,39 +113,7 @@
             </div>
         </div>
     </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+    End #experience -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -155,9 +125,14 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Level-Gated Text Generation</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Two-stage fine-tuned LSTM probabilistically generates
+                            random texts in Mandarin Chinese at the six
+                            standardized HSK proficiency levels. Designed in Jupyter
+                            Notebook, trained on custom text corpus.			  
+                            Uses custom PyTorch RNN for training word embeddings.
+                          
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -171,49 +146,169 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Latent Dirichlet Allocation</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This project implements a Gibb’s sampler for LDA topic
+                            modeling of movie reviews from the Pang & Lee corpus
+                            in Jupyter Notebook using the Numpy library for data management.
                         </p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Part of Speech Tagging with HMMs</h3>
+                        <p>
+                            This project uses the Viterbi algorithm with naive unknown
+                            word handling to predict part of speech tags for training, 	  
+                            testing, and evaluation datasets. Regression models were				  
+                            built with the scikit-learn library and visualised with Matplotlib.
+
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Zipf’s Law and Random Text Generation</h3>
+                        <p>
+                            Three-part project visualizing Zipf’s Law for various text
+                            corpora, using NLTK library’s n-gram model for random text
+                            generation trained on tokenized corpora, and calculating
+                            the PMI statistical dependence of word-pairs in the corpora.
+
+                            Project is implemented in Python and accessed via
+							command-line interface.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Conway's Game of Life in Python</h3>
+                        <p>
+                            
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Flashcard SRS demo</h3>
+                        <p>
+                            
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <!-- <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div> -->
+                    <!-- End .project-image -->
+                    <!-- <div class="project-info">
+                        <h3>PROJECT NAME</h3>
+                        <p>
+                            PROJECT DESCRIPTION
+                        </p>
+                        <a href="PROJECT LINK">View Project</a>
+                    </div> -->
+                    <!-- End .project-info -->
+                <!-- </div>
+                End .project -->
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Universität des Saarlandes</h3>
+            <span class="education-date">Oct 2022 - Present</span>
+            <h4>Masters of Science in Language Science and Technology</h4>
+            <p>
+                First year student working toward a degree in computational linguistics, with a focus on NLP.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Minnesota</h3>
+            <span class="education-date">Sept 2018 - May 2020</span>
+            <h4>Bachelor of Science in Linguistics</h4>
+            <ul>
+                <li>
+                    Graduated with high distinction, cumulative GPA: 4.0
+                </li>
+                <li>
+                    Minor in Mandarin Chinese.
+                </li>
+                <li>
+                    Minor in Teaching English as a Second Language with TESL certification.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>PyTorch</li>
+            <li>NLTK</li>
+            <li>scikit-learn</li>
+            <li>R</li>
+            <li>SQL</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -237,7 +332,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> WILLIAM LACROIX
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +343,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/WilliamPLaCroix" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/williamplacroix/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
